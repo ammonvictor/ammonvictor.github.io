@@ -1,0 +1,39 @@
+body {
+    font-family: "Libre Baskerville", serif;
+}
+
+video {
+    display: none;
+    z-index: -1;
+}
+
+.hero-bg {
+    background-image: url("../images/hero-bg.jpg");
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    video {
+        width:100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    video { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    video {
+        display: block;
+    }
+    .hero-bg {
+        background-image: none;
+    }
+}
