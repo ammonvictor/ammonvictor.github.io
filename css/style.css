@@ -15,6 +15,16 @@ h1,
   color: #ffffff;
 }
 
+.attribution {
+  display: flex;
+}
+
+.attribution .flag {
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  width: 30px;
+}
+
 @media (min-width: 767px) {
   .skill-collection {
     flex-direction: row;
